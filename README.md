@@ -45,6 +45,7 @@ To stop the program, make the the following sign (index finger open and pinky fi
 
 ## Explanation
 
+<img width="503" alt="Screenshot 2023-04-11 152342" src="https://user-images.githubusercontent.com/92617405/231125223-7d162a43-233b-424c-8401-e9e70664cf9d.png">
 
 ## Contributing
 Contributions are welcome! If you find any bugs or have any ideas for improvement, please submit an issue or pull request.
