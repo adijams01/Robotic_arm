@@ -9,7 +9,7 @@ The project uses a webcam to track the movements of the user's hand using MediaP
 * OpenCV
 * MediaPipe
 * SerialDevice
-* cvzone
+* [cvzone](https://github.com/cvzone/cvzone)
 * using pycharm is advisable
 
 ## Installation
