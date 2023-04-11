@@ -15,7 +15,7 @@ The project uses a webcam to track the movements of the user's hand using MediaP
 ## Installation
 1. Clone this repository to your local machine.
 ```
-git clone https://github.com/username/Robotic_arm.git
+git clone https://github.com/adijams01/Robotic_arm.git
 ```
 2. Install the required Python libraries.
 ```
