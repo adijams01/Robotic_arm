@@ -34,7 +34,7 @@ mySerial=cvzone.SerialObject("COM7",9600,1)
 6. Run the [LRnUDnOC.py](https://github.com/adijams01/Robotic_arm/blob/main/2x2%20Grid%20Robotic%20Arm/LRnUDnOC.py) script.
 
 ```
-python robotic_arm_mediapipe.py
+python Robotic_arm.py
 ```
 ## Usage
 Position your hand in front of the webcam.
