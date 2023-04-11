@@ -1,5 +1,5 @@
 # Gesture-Controlled Robotic Arm with Computer Vision
-This repository contains code and instructions for building a robotic arm using OpenCV and Google's MediaPipe Library.
+This repository contains code and instructions for building a robotic arm using OpenCV and Google's [MediaPipe](https://github.com/google/mediapipe) Library.
 
 The project uses a webcam to track the movements of the user's hand using MediaPipe's Hand Tracking module, and uses this information to control the movements of the robotic arm. The robotic arm is controlled using an Arduino board and servo motors.
 
@@ -46,6 +46,14 @@ To stop the program, make the the following sign (index finger open and pinky fi
 ## Explanation
 
 <img width="503" alt="Screenshot 2023-04-11 152342" src="https://user-images.githubusercontent.com/92617405/231125223-7d162a43-233b-424c-8401-e9e70664cf9d.png">
+
+To achieve this, you can divide the frame into a 2x2 grid of cells, with each cell representing an ROI. Using a Python script, you can detect the location of your hand within one of these cells and send a set of instructions to the robotic arm to move to a specific coordinate within that cell by changing the degrees of the servo motors for the base, shoulders, and gripper.
+
+While the 2x2 grid provides some freedom of movement, you may need more precision for certain applications. In this case, you can increase the number of cells by creating a 3x3 or 4x4 grid. This will allow for more accurate detection of hand location and greater control over the robotic arm's movements.
+
+Overall, this approach can be useful for a variety of applications where precise control of a robotic arm is required based on the location of an object in an image. You can integrate the Python script with the robotic arm hardware and software to achieve this functionality.
+
+In addition to controlling the movement of the robotic arm based on the location of the hand within an ROI, you can also control the gripper based on whether the palm of the hand is open or closed.
 
 ## Contributing
 Contributions are welcome! If you find any bugs or have any ideas for improvement, please submit an issue or pull request.
