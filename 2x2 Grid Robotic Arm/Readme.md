@@ -7,3 +7,10 @@
 * Need to figure out a way to optimize it
 
 2. Digital read servos
+
+
+## Notes
+* base - 1
+* wrist - 3
+* elbow - 2
+* gripper - 4
