@@ -14,3 +14,5 @@
 * wrist - 3
 * elbow - 2
 * gripper - 4
+* a5-scl
+* a4-sda
